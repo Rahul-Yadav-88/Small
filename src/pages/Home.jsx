@@ -14,7 +14,7 @@ import WEB from "../assets/WEB.png";
 import CLOUDD from "../assets/CLOUDD.png";
 import MOBILEE from "../assets/MOBILEE.png";
 import AII from "../assets/AII.png";
-import ADIDASSS from "../assets/ADIDASSS.png";
+import ADIDAS from "../assets/ADIDAS.png";
 import Mercedes from "../assets/Mercedes.png";
 import UNI from "../assets/UNI.png";
 import GIRL from "../assets/GIRL.png";
@@ -22,11 +22,11 @@ import BBC from "../assets/BBC.png";
 import GIRL2 from "../assets/GIRL2.png";
 import GIRL3 from "../assets/GIRL3.png";
 import BLACK from "../assets/BLACK.png";
-import I1 from "../assets/I1.png";
-import I2 from "../assets/I2.png";
-import I3 from "../assets/I3.png";
-import I4 from "../assets/I4.png";
-import I5 from "../assets/I5.png";
+import z1 from "../assets/z1.png";
+import z2 from "../assets/z2.png";
+import z3 from "../assets/z3.png";
+import z4 from "../assets/z4.png";
+import z5 from "../assets/z5.png";
 
 
 // ---------------------- Our Work in Action ----------------------
@@ -46,7 +46,7 @@ const OurWorkInAction = () => {
       title: "ADIDAS Portal",
       category: "Web Service",
       description: "Enterprise portal solution for global brand management.",
-      image: DemoImage,
+      image: ADIDAS,
       year: 2024,
     },
     {
@@ -491,6 +491,92 @@ const WhatClientsSay = () => {
   );
 };
 
+// ---------------------- Let's Talk About Your Project ----------------------
+const LetsTalkSection = () => {
+  return (
+    <section className="w-full max-w-4xl mx-auto py-24 px-4 text-center">
+      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+        Let's Talk About Your Project
+      </h2>
+      <p className="text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
+        We'd love to hear about your ideas. Fill out the form and our team will get back to you as soon as possible.
+      </p>
+      
+      <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+        <a
+          href="mailto:contact@smallcopper.com"
+          className="flex items-center gap-3 px-8 py-4 bg-orange-400 text-white font-semibold rounded-full shadow-lg hover:bg-orange-500 transition-colors duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+            />
+          </svg>
+          Send us an email
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </a>
+        
+        <a
+          href="tel:9876543210"
+          className="flex items-center gap-3 px-8 py-4 bg-orange-400 text-white font-semibold rounded-full shadow-lg hover:bg-orange-500 transition-colors duration-300"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+            />
+          </svg>
+          Call us directly: 98765 43210
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M17 8l4 4m0 0l-4 4m4-4H3"
+            />
+          </svg>
+        </a>
+      </div>
+    </section>
+  );
+};
+
 // ---------------------- Home Page ----------------------
 export default function Home() {
   const words = ["Web Experiences", "Digital Product", "IT Solution"];
@@ -566,14 +652,11 @@ export default function Home() {
         <h3 className="text-2xl font-bold mb-10">Trusted by</h3>
         <div className="overflow-x-auto scrollbar-hide pb-4">
           <div className="flex gap-12 px-4 w-max mx-auto">
-            <img src={Logo1} alt="Client 1" className="h-12 object-contain" />
-            <img src={Logo2} alt="Client 2" className="h-12 object-contain" />
-            <img src={Logo1} alt="Client 3" className="h-12 object-contain" />
-            <img src={Logo2} alt="Client 4" className="h-12 object-contain" />
-            <img src={Logo1} alt="Client 5" className="h-12 object-contain" />
-            <img src={Logo2} alt="Client 6" className="h-12 object-contain" />
-            <img src={Logo1} alt="Client 7" className="h-12 object-contain" />
-            <img src={Logo2} alt="Client 8" className="h-12 object-contain" />
+            <img src={z1} alt="Client 1" className="h-12 object-contain" />
+            <img src={z2} alt="Client 2" className="h-12 object-contain" />
+            <img src={z3} alt="Client 3" className="h-12 object-contain" />
+            <img src={z4} alt="Client 4" className="h-12 object-contain" />
+            <img src={z5} alt="Client 5" className="h-12 object-contain" />
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center mt-16">
@@ -601,6 +684,7 @@ export default function Home() {
       <WhyPartnerWithUs />
       <OurWorkInAction />
       <WhatClientsSay />
+      <LetsTalkSection />
     </div>
   );
 }
